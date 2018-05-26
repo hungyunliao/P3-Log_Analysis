@@ -8,7 +8,7 @@ This is a program querying to a news database called 'news' that answers followi
 # Database Schema
 
 | Column        | Type           | Modifiers  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| :-----:|
 |author | integer | not null |
 |title | text | not null |
 |slug | text | not null |
