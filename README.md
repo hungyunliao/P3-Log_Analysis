@@ -39,10 +39,8 @@ Table: log
 | id | integer | not null default nextval('log_id_seq'::regclass) |
 
 ## Usage
-Download and load the data:
-
-Download [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and put the unzip file into `vagrant` directory.
-
+Download and load the data:<br />
+Download [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and put the unzip file into `vagrant` directory.<br />
 Start vagrant and cd to the shared folder `/vagrant`
 ```
 $ vagrant up
@@ -61,22 +59,22 @@ $ python3 logs_analysis.py
 ## Output
 The output shold look like followings:
 
-1. What are the most popular three articles of all time? Which articles have been accessed the most? Present this information as a sorted list with the most popular article at the top.
-"Candidate is jerk, alleges rival" — 342102 views
-"Bears love berries, alleges bear" — 256365 views
-"Bad things gone, say good people" — 171762 views
-"Goats eat Google's lawn" — 85775 views
-"Trouble for troubled troublemakers" — 85679 views
-"There are a lot of bears" — 85392 views
-"Balloon goons doomed" — 85387 views
-"Media obsessed with bears" — 85273 views
+1. What are the most popular three articles of all time? Which articles have been accessed the most? Present this information as a sorted list with the most popular article at the top.<br />
+"Candidate is jerk, alleges rival" — 342102 views<br />
+"Bears love berries, alleges bear" — 256365 views<br />
+"Bad things gone, say good people" — 171762 views<br />
+"Goats eat Google's lawn" — 85775 views<br />
+"Trouble for troubled troublemakers" — 85679 views<br />
+"There are a lot of bears" — 85392 views<br />
+"Balloon goons doomed" — 85387 views<br />
+"Media obsessed with bears" — 85273 views<br />
 
-2. Who are the most popular article authors of all time? That is, when you sum up all of the articles each author has written, which authors get the most page views? Present this as a sorted list with the most popular author at the top.
-Ursula La Multa — 512805 views
-Rudolf von Treppenwitz — 427781 views
-Anonymous Contributor — 171762 views
-Markoff Chaney — 85387 views
+2. Who are the most popular article authors of all time? That is, when you sum up all of the articles each author has written, which authors get the most page views? Present this as a sorted list with the most popular author at the top.<br />
+Ursula La Multa — 512805 views<br />
+Rudolf von Treppenwitz — 427781 views<br />
+Anonymous Contributor — 171762 views<br />
+Markoff Chaney — 85387 views<br />
 
-3. On which days did more than 1% of requests lead to errors? The log table includes a column status that indicates the HTTP status code that the news site sent to the user's browser. 
-July 17, 2016 — 2.32% errors
+3. On which days did more than 1% of requests lead to errors? The log table includes a column status that indicates the HTTP status code that the news site sent to the user's browser.<br />
+July 17, 2016 — 2.32% errors<br />
 
