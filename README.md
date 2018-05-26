@@ -7,11 +7,15 @@ This is a program querying to a news database called 'news' that answers followi
 
 # Database Schema
 
-| Tables        | Are           | Cool  |
+| Column        | Type           | Modifiers  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+|author | integer | not null |
+|title | text | not null |
+|slug | text | not null |
+|lead | text | |
+|body | text | |
+|time | timestamp with time zone | default now() |
+|id | integer | not null default nextval('articles_id_seq'::regclass) |
 
 Table: articles
 Column | Type | Modifiers
