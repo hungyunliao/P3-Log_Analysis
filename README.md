@@ -20,13 +20,15 @@ Table: articles
 
 
 Table: authors
+
 | Column        | Type           | Modifiers  |
 | ------------- |:-------------:| :-----:|
-| name | text | not null |
-| bio | text | |
-| id | integer | not null default nextval('authors_id_seq'::regclass) |
+|name | text | not null |
+|bio | text | |
+|id | integer | not null default nextval('authors_id_seq'::regclass) |
 
 Table: log
+
 | Column        | Type           | Modifiers  |
 | ------------- |:-------------:| :-----:|
 | path | text  | |
