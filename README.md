@@ -5,7 +5,7 @@ This is a program querying to a news database called 'news' that answers followi
 2. Who are the most popular article authors of all time?
 3. On which days did more than 1% of requests lead to errors?
 
-# Database Schema
+## Database Schema
 Table: articles
 
 | Column        | Type                     | Modifiers                                             |
