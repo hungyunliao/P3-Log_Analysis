@@ -57,3 +57,26 @@ Run the program
 ```
 $ python3 logs_analysis.py
 ```
+
+## Output
+The output shold look like followings:
+
+1. What are the most popular three articles of all time? Which articles have been accessed the most? Present this information as a sorted list with the most popular article at the top.
+"Candidate is jerk, alleges rival" — 342102 views
+"Bears love berries, alleges bear" — 256365 views
+"Bad things gone, say good people" — 171762 views
+"Goats eat Google's lawn" — 85775 views
+"Trouble for troubled troublemakers" — 85679 views
+"There are a lot of bears" — 85392 views
+"Balloon goons doomed" — 85387 views
+"Media obsessed with bears" — 85273 views
+
+2. Who are the most popular article authors of all time? That is, when you sum up all of the articles each author has written, which authors get the most page views? Present this as a sorted list with the most popular author at the top.
+Ursula La Multa — 512805 views
+Rudolf von Treppenwitz — 427781 views
+Anonymous Contributor — 171762 views
+Markoff Chaney — 85387 views
+
+3. On which days did more than 1% of requests lead to errors? The log table includes a column status that indicates the HTTP status code that the news site sent to the user's browser. 
+July 17, 2016 — 2.32% errors
+
