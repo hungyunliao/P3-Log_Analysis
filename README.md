@@ -40,7 +40,9 @@ Table: log
 
 ## Usage
 Download and load the data:
+
 Download [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and put the unzip file into `vagrant` directory.
+
 Start vagrant and cd to the shared folder `/vagrant`
 ```
 $ vagrant up
